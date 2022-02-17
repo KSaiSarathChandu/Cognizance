@@ -1,0 +1,40 @@
+Checking whether a number is divisible by 3 or not , by the condition of not using '%' operator as "N%3"
+
+Input : Giving a number N
+output: Displays 'true' if the number is divisible by 3
+        Displays 'false' if the number is not divisible by 3
+
+Procedure:
+
+1. START
+2. Declare the variables n, sum, sum1, rem, x,y,z 
+3. Give a number 'n' as an input
+4. Assign sum=0
+5. Assign rem=n
+6. WHILE rem>0
+        assign x=rem%10
+        assign rem=rem/10
+        assign sum=sum+x
+7. IF
+   sum==3 or sum==6 or sum==9
+   print"entered number is divisible by 3 and true"
+8.  ELSE IF 
+    sum<=9
+print "entered number is not idvisible by 3 and false"
+9.  ELSE
+    assign y=sum
+    assign sum1=0
+10. WHILE
+   assign z=y%10
+   assign y=y/10
+   assign sum1=sum1+z
+11.IF
+   sum1==3 or sum1==6 or sum1==9
+   print "given number is divisible by 3 and true"
+12.ELSE
+   print "given number is not divisible by 3 and false"
+13.END
+          
+ 
+
+ 

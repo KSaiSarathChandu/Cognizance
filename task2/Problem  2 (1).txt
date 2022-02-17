@@ -1,0 +1,24 @@
+Program for finding Nth fibonacci number of given limit
+
+Input:  Give a number N
+Output: Nth fibonacci number 
+
+Procedure:
+
+1.START
+2.Declare the variable N as integer
+3.Declare the variable terms prev, curr, next as integers       (prev= previous term, curr= current term, next= next term)
+4.Declare i as an integer   
+5.Give muber N as input 
+6.Assign prev=0
+7.Assign curr=1
+8.Assign i=0
+9.FOR n>i (i=1 to n)
+      assign next=prev+current
+      assign prev=curr
+      assign curr=next
+10.perform i=i+1
+11.display 'next' as the nth fibonacci number of that series 
+12.END
+     
+  
